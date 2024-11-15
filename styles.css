@@ -1,0 +1,66 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: url('https://example.com/paper-texture.jpg') center/cover no-repeat; /* Replace with your paper texture */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px dashed #ff69b4;
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #444;
+    font-size: 1.2em;
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.nav a:hover {
+    color: #ff69b4;
+    border: 2px dashed #ff69b4;
+    border-radius: 5px;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #ff69b4;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.video-container, .photo-container {
+    width: 300px;
+    margin: 10px auto;
+    border: 3px dashed #ff69b4;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.video-container iframe, .photo-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.photo-container img {
+    height: auto;
+    display: block;
+}
